@@ -307,20 +307,20 @@ SOURCES_CXX += $(EXTERNALS_DIR)/nihstro/src/parser_assembly.cpp \
                $(EXTERNALS_DIR)/nihstro/src/parser_assembly/floatop.cpp
 
 # Externals - SoundTouch
-SOURCES_CXX += $(EXTERNALS_DIR)/soundtouch/src/AAFilter.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/BPMDetect.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/cpu_detect_x86.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/FIFOSampleBuffer.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/FIRFilter.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/InterpolateCubic.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/InterpolateLinear.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/InterpolateShannon.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/mmx_optimized.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/PeakFinder.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/RateTransposer.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/SoundTouch.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/sse_optimized.cpp \
-               $(EXTERNALS_DIR)/soundtouch/src/TDStretch.cpp
+SOURCES_CXX += $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/AAFilter.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/BPMDetect.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/cpu_detect_x86.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/FIFOSampleBuffer.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/FIRFilter.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/InterpolateCubic.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/InterpolateLinear.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/InterpolateShannon.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/mmx_optimized.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/PeakFinder.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/RateTransposer.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/SoundTouch.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/sse_optimized.cpp \
+               $(EXTERNALS_DIR)/soundtouch/source/SoundTouch/TDStretch.cpp
 
 # Externals - Teakra
 SOURCES_CXX += $(EXTERNALS_DIR)/teakra/src/ahbm.cpp \
