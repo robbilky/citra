@@ -1,18 +1,9 @@
 [submodule "boost"]
     path = externals/boost
 	url = https://github.com/libretro-fork/ext-boost.git
-[submodule "nihstro"]
-    path = externals/nihstro
-	url = https://github.com/libretro-fork/nihstro.git
-[submodule "soundtouch"]
-    path = externals/soundtouch
-    url = https://github.com/citra-emu/ext-soundtouch.git
 [submodule "catch"]
     path = externals/catch
     url = https://github.com/philsquared/Catch.git
-[submodule "dynarmic"]
-    path = externals/dynarmic
-    url = https://github.com/citra-emu/dynarmic.git
 [submodule "xbyak"]
     path = externals/xbyak
     url = https://github.com/herumi/xbyak.git
@@ -28,9 +19,6 @@
 [submodule "inih"]
     path = externals/inih/inih
     url = https://github.com/benhoyt/inih.git
-[submodule "libressl"]
-    path = externals/libressl
-    url = https://github.com/citra-emu/ext-libressl-portable.git
 [submodule "libusb"]
     path = externals/libusb/libusb
     url = https://github.com/libusb/libusb.git
@@ -58,3 +46,15 @@
 [submodule "externals/ffmpeg"]
 	path = externals/ffmpeg
 	url = https://github.com/FFmpeg/FFmpeg
+[submodule "externals/libressl"]
+	path = externals/libressl
+	url = https://github.com/PabloMK7/ext-libressl-portable.git
+[submodule "externals/dynarmic"]
+	path = externals/dynarmic
+	url = https://github.com/PabloMK7/dynarmic.git
+[submodule "externals/soundtouch"]
+	path = externals/soundtouch
+	url = https://codeberg.org/soundtouch/soundtouch.git
+[submodule "externals/nihstro"]
+	path = externals/nihstro
+	url = https://github.com/neobrain/nihstro.git
